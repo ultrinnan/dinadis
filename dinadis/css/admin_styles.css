@@ -1,0 +1,86 @@
+* {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+
+#titlediv #title-prompt-text {
+    color: #72777c;
+    position: absolute;
+    font-size: 1.7em;
+    padding: 0px 10px;
+}
+
+.wp-admin #wpadminbar #wp-admin-bar-site-name>.ab-item:before { 
+    content: "";
+    background: url(../favicon.png) no-repeat !important;
+    background-size: cover !important;
+    width: 27px;
+    height: 27px;
+}
+
+#wpadminbar {
+    background: #2E3B42;
+    border-bottom: 2px solid #d0a62a;
+}
+
+#wpadminbar #wp-admin-bar-wp-logo>.ab-item {
+    display: none;
+}
+
+#adminmenu, 
+#adminmenu .wp-submenu, 
+#adminmenuback, 
+#adminmenuwrap {
+    background: #2e3b42;
+}
+
+.fixed_save {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+}
+
+legend {
+    display: block;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #d0a62a;
+}
+
+label {
+    margin: 5px 0 0;
+}
+
+#title-prompt-text {
+    color: #72777c;
+    position: absolute;
+    font-size: 1.7em;
+    padding: 0px 10px;
+}
+
+/*-------------- footer start --------------------*/
+#footer-thankyou {
+    font-style: normal;
+}
+
+#wpfooter {
+    background-color: #2e3b42;
+    color: #495e69;
+    border-top: 2px solid #d0a62a;
+}
+#wpfooter a {
+    color: #495e69;
+    text-decoration: underline;
+}
+#wpfooter a:hover {
+    text-decoration: underline;
+    color: #d0a62a;
+    transition: 0.5s;
+}
+/*-------------- footer end --------------------*/
